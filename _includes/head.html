@@ -64,11 +64,11 @@ gtag('config', 'UA-154657333-1');
     <meta property="article:author" content="{{ page.author }}" />
   {% endif %}
   {% if page.image %}
-    <meta property="og:image" content="{{ site.github.url }}{{ page.image.feature }}" />
-    <meta name="twitter:image:src" content="{{ site.github.url }}{{ page.image.feature }}" />
+    <meta property="og:image" content="{{ site.github.url }}/img/post/thumbnail/{{ page.image.feature }}" />
+    <meta name="twitter:image:src" content="{{ site.github.url }}/img/post/thumbnail/{{ page.image.feature }}" />
   {% else %}
-    <meta property="og:image" content="{{ site.github.url }}{{ site.thumbnail }}" />
-    <meta name="twitter:image:src" content="{{ site.github.url }}{{ site.thumbnail }}" />
+    <meta property="og:image" content="{{ site.github.url }}/img/post/thumbnail/ryanandme_thumbnail.png" />
+    <meta name="twitter:image:src" content="{{ site.github.url }}/img/post/thumbnail/ryanandme_thumbnail.png" />
   {% endif %}
     <meta property="og:locale" content="{{ site.locale }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
