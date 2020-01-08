@@ -1,0 +1,29 @@
+title:              "ryanandme"
+tagline:            "Ryan Reviews with memories, not promotion"
+email:              "junian@hakdokman.com"
+description:        "This is a place where a fan of kakofriends Ryan in Korea speaks honestly with memories of Ryan's products."
+author:             "junian"
+baseurl:            "/"
+url:                "https://ryanandme.me"
+locale:             "ko_KR"
+thumbnail:          "/img/ryanandme_thumbnail.png"
+
+# Social Profiles
+twitter_username:   twitter_username
+instagram_username: instagram_username
+facebook_username:  ryanandme
+linkedin_username:  linkedin_username
+
+# Build settings
+markdown:           kramdown
+permalink:          /:title
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# 블로그 disqus shortname
+disqus:
+  shortname: ryanandme
